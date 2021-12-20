@@ -1,0 +1,65 @@
+# Auditlog colors
+# default (grey)
+# error (red)
+# warning (orange)
+# success (green)
+# primary (blue)
+
+names:
+  admin-created:
+    description: Admin created
+    color: warning
+  admin-deleted:
+    description: Admin removed
+    color: default
+  admin-password-reset:
+    description: Admin has reset the password 
+    color: warning
+  admin-password-reset-request:
+    description: Admin password reset requested
+    color: warning
+  admin-permissions:
+    description: Admin permission edited
+    color: warning
+  admin-get:
+    description: Admin account viewed
+    color: default
+  login-success:
+    description: Successful login
+    color: success
+  login-fail:
+    description: Login failed
+    color: error
+  login-not-found:
+    description: User not found
+    color: error
+  login-refresh-denied: 
+    description: JWT is invalid
+    color: warning
+  login-refresh:
+    description: JWT validated and refreshed
+    color: default
+  login-refresh-fail: 
+    description: JWT failed refresh due to error
+    color: error
+  password-changed: 
+    description: Password has been changed
+    color: warning
+  bot-update-success:
+    description: Bot has been modified successfully
+    color: success
+  bot-create-failed:
+    description: Bot creation has failed
+    color: error
+  bot-create-success:
+    description: Bot has been created successfully
+    color: success
+  bot-remove-flagged:
+    description: Bot has been flagged for removal
+    color: warning
+  bot-get-status:
+    description: Bot status has been requested
+    color: default
+  bot-get: 
+    description: List of bots were retrieved 
+    color: default

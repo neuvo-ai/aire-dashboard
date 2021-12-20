@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "neuvo-covid"
+  },
+  "targets": {
+    "neuvo-covid": {
+      "hosting": {
+        "dev": [
+          "neuvo-dash-dev"
+        ],
+        "production": [
+          "neuvo-covid"
+        ]
+      }
+    }
+  }
+}
